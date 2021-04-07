@@ -151,6 +151,8 @@ $(document).ready(function () {
                 allRegions.push(region);
               }
             }
+            // sort array of regions alphabetically ascending
+            allRegions.sort()
           }
           /*if (region !== 'australia' && region !== 'asia' && region !== 'us') {
             if (allRegions.indexOf(region) === -1) {
